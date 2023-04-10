@@ -104,8 +104,8 @@ nav .menu {
 /* -------------------- */
 #home {
     position: absolute;
-    /* top: 38%; */
-    /* left: 200px; */
+    top: 38%;
+    left: 100px;
     color: white;
     animation: harry 6s 0s 1 forwards;
 }
@@ -129,14 +129,13 @@ nav .menu {
 
 @keyframes harry {
     0% {
-        top: -200px;
-        left: -100px;
+        transform: translate(100px);
+        opacity: 0;
     }
 
     100% {
-        top: 38%;
-        left: 100px;
-        display: block;
+        transform: translate(0px);
+        opacity: 1;
     }
 }
 
