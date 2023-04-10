@@ -90,3 +90,8 @@ nav .fa {
     margin: auto;
     width: 60vw;
 }
+
+#query input , #query textarea{
+    width: 65%;
+    font-size: 13px;
+}
